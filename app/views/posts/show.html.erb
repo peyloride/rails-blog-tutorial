@@ -1,14 +1,14 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @product.name %>
+  <strong>Title:</strong>
+  <%= @post.title %>
 </p>
 
 <p>
-  <strong>Price:</strong>
-  <%= @product.price %>
+  <strong>Content:</strong>
+  <%= @post.content %>
 </p>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
